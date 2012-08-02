@@ -1,0 +1,12 @@
+inherit distutils
+
+CATEGORY="Python"
+SUMMARY="Python 2D plotting library"
+DESCRIPTION="matplotlib is a python 2D plotting library which produces
+publication quality figures in a variety of hardcopy formats and
+interactive environments across platforms. matplotlib can be used in
+python scripts, the python and ipython shell (ala MATLAB or
+Mathematica), web application servers, and six graphical user
+interface toolkits."
+HOMEPAGE="http://matplotlib.sourceforge.net/"
+SRC_URI="mirror://sourceforge/matplotlib/${ORIG_PN}-${PV}.tar.gz"
