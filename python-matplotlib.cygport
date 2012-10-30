@@ -1,5 +1,8 @@
 inherit distutils
 
+NAME="python-matplotlib"
+VERSION=1.1.1
+RELEASE=2
 CATEGORY="Python"
 SUMMARY="Python 2D plotting library"
 DESCRIPTION="matplotlib is a python 2D plotting library which produces
