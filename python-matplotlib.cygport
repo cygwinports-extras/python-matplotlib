@@ -1,8 +1,8 @@
 inherit distutils
 
 NAME="python-matplotlib"
-VERSION=1.1.1
-RELEASE=2
+VERSION=1.2.0
+RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python 2D plotting library"
 DESCRIPTION="matplotlib is a python 2D plotting library which produces
@@ -13,3 +13,5 @@ Mathematica), web application servers, and six graphical user
 interface toolkits."
 HOMEPAGE="http://matplotlib.sourceforge.net/"
 SRC_URI="mirror://sourceforge/matplotlib/${ORIG_PN}-${PV}.tar.gz"
+
+REQUIRES="ghostscript poppler texlive-collection-latex"
